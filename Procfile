@@ -1,1 +1,1 @@
-web: gunicorn flask-backend/app:app
+web: gunicorn --chdir flask-backend app:app
